@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+html, body{
+    height: 100%
+}
+
+header, footer, .about-us, .onlineshopping{
+    clear: both;
+}
+
+header{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url('mainimage.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    /* background-size: 100%, 65%; */
+    position: relative;
+    /* background-color: rgb(226, 226, 245); */
+    
+}
+
+#cuisinelogo{
+    height: 50px;
+    width: 120px;
+    padding-left: 25px;
+    background-color: rgb(226, 226, 238);
+}
+
+.nav-list{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+       
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 0;
+    padding-right: 30px;
+    font-family: 'PT Serif', serif;
+}
+
+#cart{
+    height: 20px;
+    width: 20px;
+}
+
+.headersection{
+    height:90%;
+    width: 50%;
+    /* border: 2px solid black; */
+    float: left;
+    padding-left: 20px;
+}
+#icons{
+    text-align: left;
+}
+
+.fa{
+    color: rgb(255, 136, 0);
+}
+
+#followers{
+    color: black;
+}
+i{
+    padding-left: 5px;
+    padding-right: 35px;
+
+}
+input[type=text]{
+   width: 45%;
+   padding: 7px 7px;
+   border-radius: 4px;
+   border: none;
+}
+
+select{
+    width:15%;
+    padding: 7px 7px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 0;
+    background-color:rgb(250, 129, 48);
+}
+
+.about-us{
+    height: 65%;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+}
+
+.aboutusimage{
+    height: 100%;
+    width: 45%;
+    /* border: 2px solid black; */
+    float: left;
+}
+
+#green{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.aboutusnote{
+    height: 100%;
+    width: 55%;
+    /* border: 2px solid black; */
+    background-image: url('rightimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    float: right;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-top: 10px;
+
+}
+
+.aboutstory{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Assistant';
+    margin-right: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: rgb(248, 103, 50);
+    color: white;
+    border: 2px solid rgb(248, 103, 50);   
+    cursor: pointer; 
+}
+
+button i{
+    float: right;
+    padding-left: 10px;
+  
+    
+}
+
+.onlineshopping{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(248, 250, 252);
+    background-size: contain;
+
+}
+
+.cuisineshow{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.cuisineshow ul{
+    list-style: none;
+    /* float: right; */
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    margin-right: 33%;
+    border-bottom: 2px solid rgb(184, 46, 11);
+}
+    
+.cuisineshow li a{
+    font-size: 17px;
+    text-decoration: underline 1px solid rgb(184, 46, 11);
+}
+    
+/* .cuisineshow li a{
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+
+           
+} */
+
+  
+#center{
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+}
+
+
+h2, p{
+    text-align: center;
+}
+
+p{
+    font-family: 'Assistant', serif;
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+}
+
+
+.dishes-display{
+    height: 35%;
+    
+    /* width: 25%; */
+    padding: 5px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    
+}
+/* use this to get images stand side by side and always sectionalize...nb: this is for the section where the images are nested*/
+.dishes-display1{
+    height: 35%;
+    
+    /* width: 25%; */
+    padding: 5px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    
+
+}
+
+
+
+/* use this to style the images that are to be lined up horizontally */
+.speciality{
+    width: 20%;
+    height: 100%;
+    flex: 20%;
+    object-fit: cover;
+    position: relative;
+    padding: 10px;
+   
+}
+
+
+.booking{
+    height:100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url('drink.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.opening-time{
+    margin-top: 15px;
+    height: 35%;
+    width: 100%;
+    /* border: 2px solid black; */
+    clear: both;
+    text-align: center;
+}
+
+.float{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+
+.weekday{
+    /* border: 2px solid black; */
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding-left: 20.5%;
+    
+}
+
+
+.weekend{
+    /* border: 2px solid black; */
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-left: 9.5%;
+}
+
+.short-clip{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+
+span{
+    color: rgb(248, 103, 50);
+}
+
+.recolor{
+    color: black;
+}
+#red{
+    color: rgb(248, 103, 50);
+}
+
+#width{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+iframe{
+    text-align: center;
+    width: 35%;
+    height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+.reviews{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(247, 247, 240);
+    text-align: center;
+    margin-top: 5px;
+}
+.reviews i{
+    color: rgb(255, 174, 0);
+}
+
+
+/* to get an image centralized and then make it curvy */
+.man{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.fa-star{
+    color: rgb(255, 174, 0);
+    padding-right: 0.1em;
+    display: block;
+}
+
+
+
